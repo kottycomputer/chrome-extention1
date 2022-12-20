@@ -12,3 +12,4 @@ function f(n){
 }
 
 f(document.body); // document.body は HTML の文章全体を示す要素
+
