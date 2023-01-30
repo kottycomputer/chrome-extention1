@@ -1,0 +1,17 @@
+{
+    "name": "Sample Chrome Extension",
+    "description": "Remove Unnecessary Parts from Tabelog etc.",
+    "version": "0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+          "matches": ["https://tabelog.com/*"],
+          "js": ["content_script.js"]
+        },
+        {
+          "matches": ["https://tabelog.com/*"],
+          "css": ["mystyle2.css"]
+        }
+      ]
+  }
+  
