@@ -1,4 +1,7 @@
 img{filter:sepia(100%);}
-img {
-    border: solid 1px #777777; /* 色：グレー */
-  }
+img{
+  border-radius: 10px;
+  outline: 10px solid #FF0000;
+  margin: 10px;
+}
+/* {border: double 1px #FF0000; 色：赤} */
