@@ -1,6 +1,6 @@
 {
     "name": "Cookpad Chrome Extension",
-    "description": "Remove Unnecessary sugar, cheese and chocolate from cookpad etc.",
+    "description": "Remove Unnecessary sugar and chocolate from cookpad etc.",
     "version": "0.1",
     "manifest_version": 3,
     "content_scripts": [
@@ -14,3 +14,5 @@
         }
       ]
   }
+  
+  

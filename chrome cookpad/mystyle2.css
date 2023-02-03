@@ -1,7 +1,116 @@
-img{filter:sepia(100%);}
-img{
+/* 砂糖15gより多い  */
+img.over15 {
+  -ms-filter: blur(6px);
+	filter: blur(6px);  
+}
+
+/* チョコレート20gより多い */
+img.over20 {
+  filter:sepia(100%);
+}
+
+/* 写真 */
+img.photo {
   border-radius: 10px;
   outline: 10px solid #FF0000;
   margin: 10px;
 }
-/* {border: double 1px #FF0000; 色：赤} */
+
+
+/* text.over100 {
+  font-size: 10px; 
+  color: black 
+} 
+
+
+title.wow {
+    padding: 8px;
+    background-color: red;
+    font-size: 10px;
+    color: gray ;
+} */
+
+.custom-blink.hidden {
+  display: none;
+}
+
+HTML CSS JSResult Skip Results Iframe
+EDIT ON
+*{
+    box-sizing: border-box;
+}
+
+.logo{
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0px;
+    left:0;
+    padding: 0;
+    margin: 0;
+   
+    -webkit-perspective: 1000;
+    perspective: 1000;
+
+    
+}
+
+
+.logo .letters {
+    position: absolute;
+    width: 500px;
+    height: 400px;;
+    top:50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right:0;
+    left:0;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 80px;
+    
+}
+
+.logo .letters g polygon, .letters path {
+    fill:#000;
+    padding:10px;
+    stroke:#000;
+    stroke-width:0.2;
+}
+
+.logo .triggers{
+    width:500px;
+    height: 400px;
+    position: absolute;
+top:50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right:0;
+    left:0;
+    padding-top: 80px;
+    padding-left: 65px;
+    margin: 0 auto;
+        
+}
+
+.triggers span{
+    width:23px;
+    height: 35px;
+    display: block;
+    background-color: transparent;
+    margin-top:92px;
+
+    float: left;
+    margin-right:2px;
+}
+
+.triggers span:nth-child(7){
+    margin-left: 29px;
+}
+.triggers span:nth-child(9){
+    width:32px;
+}
+
